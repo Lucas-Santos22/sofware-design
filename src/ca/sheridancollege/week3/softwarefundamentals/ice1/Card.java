@@ -49,5 +49,13 @@ public class Card {
     }
    // insert two methods to generate random value and suit here
    
+    public int randomValue(){
+       int num = (int)(Math.random()*13+1);
+       return num;
+   }
+   public int randomSuit(){
+       int suit = (int)(Math.random()*(4-1)+1);
+       return suit;
+   }
     
 }
